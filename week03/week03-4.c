@@ -10,7 +10,12 @@ int main(void) {
 	printf("enter two integers : ");
 	scanf("%d, %d", &a, &b);
 	
-	printf("%f / %f = %f", (float)a, (float)b, (float)a/b);
+	float c = a;
+    float d = b;
+
+    float e = c / d;
+   
+	printf("%f / %f = %f", c, d, e);
 
 	return 0;
 }
